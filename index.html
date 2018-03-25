@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#about").click(function(){
+        $(".abt").toggle();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#contact").click(function(){
+        $(".con").toggle();
+    });
+});
+</script>
+ 
+
+	<title>Portfolio</title>
+</head>
+
+<body>
+<header>
+		
+</header>
+	
+
+<div class="row">
+
+<div class="col-3">
+  <picture>
+        <source media="(min-width: 610px)" srcset="images/myself.jpg">
+    <source media="(min-width: 350px)" srcset="images/myself2.jpg">
+    <img src="images/myself.jpg" alt="me" style="width:50%;" class="nav-img">
+      </picture>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li id="about"><button>About</button></li>
+        <li id="contact"><button>Contact</button></li>
+      </ul>
+
+      <div class="abt" style="display:none;">
+        <p>
+          I am a student from Nottingham, UK (originally from Birmingham, UK.) 
+          I am currently studying an FDA in Digital Design (taking the Game Art pathway) at Nottingham College.
+        </p>
+      </div>
+    
+
+    <div class="con" style="display:none;">
+      <p>
+        <h4><b>email address:</b></h4> elijahpalmer1997@aol.co.uk
+        <h4><b>social media: </b></h4>
+
+    
+      <div class="social">
+          <a href="https://twitter.com/skepticaldragn" target="_blank" class="fa fa-twitter"></a>
+          <a href="https://www.instagram.com/skepticaldragon/" target="_blank" class="fa fa-instagram"></a>
+      </div>
+    </p>
+  </div>
+</div>
+
+
+
+
+<div class="col-9">
+  <div class="grid-container">
+    <div class="grid-item">
+
+        <a href="3d.html"><img src="images/corridor_2.jpg" alt= "corridor" class="img-block"></a>
+          <div class="middle">
+            <div class= "text"> <a href="3d.html">3D ENVIRONMENTS </a></div>
+              </div>
+    </div>
+    
+    <div class="grid-item">
+
+      <a href="photography.html"><img src="images/cinema.jpg" alt= "cinema" class="img-block"></a>
+        <div class="middle">
+          <div class= "text"><a href="photography.html"> PHOTOGRAPHY</a> </div>
+            </div>
+    </div>
+
+
+    <div class="grid-item">
+
+        <a href="digital.html"><img src="images/mountains.jpg" alt= "mountains" class="img-block"></a>
+          <div class="middle">
+            <div class= "text"> <a href="digital.html">DIGITAL ART</a> </div>
+              </div>
+    </div>
+
+    <div class="grid-item">
+      <a href="models.html"><img src="images/bedrender.jpg" alt="3dbed" class="img-block"></a>
+        <div class="middle">
+          <div class= "text"><a href="models.html"> 3D MODELS</a> </div>
+            </div>
+    </div>
+
+    <div class="grid-item">
+      <a href="art.html"><img src="images/steps.jpg" alt="steps" class="img-block"></a>
+        <div class="middle">
+          <div class= "text"> <a href="art.html">TRADITIONAL ART</a> </div>
+            </div>
+    </div>
+
+   
+
+  <div class="grid-item"></div>
+
+  
+</div>
+</div>
+
+</div>
+
+	
+
+
+
+</body>
+
+  <footer>
+© Elijah Palmer 2018
+  </footer>
+
+</html>
